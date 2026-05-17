@@ -1,0 +1,279 @@
+{
+  "jurisdiction": "India (Central Law)",
+  "accessed_date": "May 2026",
+  "statutes": [
+    {
+      "statute_name": "Employees' Provident Funds and Miscellaneous Provisions Act, 1952",
+      "short_name": "EPF Act",
+      "enactment_year": 1952,
+      "most_recent_amendment_year": 2020,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 6",
+          "topic": "Employer and employee contribution rates",
+          "rate_or_rule": "12% of basic wages + dearness allowance + retaining allowance (employer); 12% (employee). Statutory wage ceiling for mandatory coverage: ₹15,000 per month basic salary.",
+          "notes": "Employees drawing more than ₹15,000/month may become members voluntarily under para 26(6) of EPF Scheme 1952. Contribution on wages above ceiling is voluntary."
+        },
+        {
+          "section": "§ 2",
+          "topic": "Definitions — 'employee', 'wages', 'basic wages'",
+          "rate_or_rule": "Defines the scope of covered employees and wage components subject to contribution.",
+          "notes": "Code on Social Security, 2020 replaces this Act when fully enforced."
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/2152",
+      "secondary_source_url": "https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Employees' State Insurance Act, 1948",
+      "short_name": "ESI Act",
+      "enactment_year": 1948,
+      "most_recent_amendment_year": 2010,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 40",
+          "topic": "Employer's liability to pay contributions",
+          "rate_or_rule": "Employer: 3.25% of wages; Employee: 0.75% of wages. Wage ceiling for coverage: ₹21,000 per month gross salary.",
+          "notes": "Contribution rates reduced from higher levels effective 1 July 2019. Employees earning daily average wages up to ₹176 are exempt from employee contribution but employer still contributes."
+        }
+      ],
+      "primary_source_url": "https://esic.gov.in/contribution",
+      "secondary_source_url": "https://esic.gov.in/esi-acts",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Payment of Gratuity Act, 1972",
+      "short_name": "Gratuity Act",
+      "enactment_year": 1972,
+      "most_recent_amendment_year": 2018,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 4(1)",
+          "topic": "Entitlement to gratuity",
+          "rate_or_rule": "An employee who has rendered continuous service of not less than five years is entitled to gratuity on termination, retirement, resignation, or death.",
+          "notes": "Five-year threshold does not apply in case of death or disablement."
+        },
+        {
+          "section": "§ 4(2)",
+          "topic": "Calculation formula",
+          "rate_or_rule": "15 days' wages based on last drawn wages × completed years of service. Formula: (monthly basic salary ÷ 26) × 15 × years of service.",
+          "notes": "Divisor of 26 represents working days per month under the Act. The effective reserve rate is approximately 4.81% of annual basic salary (15/26 × 1/12)."
+        },
+        {
+          "section": "§ 4(3)",
+          "topic": "Maximum gratuity",
+          "rate_or_rule": "The amount of gratuity payable shall not exceed ₹20 lakh.",
+          "notes": "Raised from ₹10 lakh to ₹20 lakh by Payment of Gratuity (Amendment) Act, 2018, notified 29 March 2018."
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/1703",
+      "secondary_source_url": "https://www.indiacode.nic.in/bitstream/123456789/15318/1/payment-of-gratuity-act-1972.pdf",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Payment of Bonus Act, 1965",
+      "short_name": "Bonus Act",
+      "enactment_year": 1965,
+      "most_recent_amendment_year": 2015,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 8",
+          "topic": "Eligibility for bonus",
+          "rate_or_rule": "Every employee receiving salary or wages up to ₹21,000 per month who has worked for 30 working days in the accounting year is eligible for bonus.",
+          "notes": "Salary ceiling raised from ₹10,000 to ₹21,000 by the Payment of Bonus (Amendment) Act, 2015."
+        },
+        {
+          "section": "§ 10",
+          "topic": "Minimum bonus",
+          "rate_or_rule": "Minimum bonus payable: 8.33% of wages/salary earned during the accounting year, regardless of profit.",
+          "notes": "If allocable surplus exceeds minimum bonus, higher bonus under § 11 applies."
+        },
+        {
+          "section": "§ 11",
+          "topic": "Maximum bonus",
+          "rate_or_rule": "Maximum bonus payable: 20% of wages/salary earned during the accounting year.",
+          "notes": ""
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/1548",
+      "secondary_source_url": "https://www.indiacode.nic.in/bitstream/123456789/15987/1/the_payment_of_bonus_act,_1965.pdf",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Industrial Disputes Act, 1947",
+      "short_name": "ID Act",
+      "enactment_year": 1947,
+      "most_recent_amendment_year": 2010,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 2(s)",
+          "topic": "Definition of 'workman'",
+          "rate_or_rule": "Workman means any person employed to do manual, skilled, unskilled, technical, operational, clerical or supervisory work for hire or reward. Excludes persons employed primarily in managerial or administrative capacity, or supervisors drawing wages exceeding the notified ceiling.",
+          "notes": "Classification as 'workman' determines whether procedural protections under the Act apply."
+        },
+        {
+          "section": "§ 25F",
+          "topic": "Conditions precedent to retrenchment",
+          "rate_or_rule": "No workman with one year of continuous service may be retrenched unless: (a) one month's written notice or wages in lieu; (b) retrenchment compensation = 15 days average pay per completed year of continuous service; (c) notice to the appropriate government.",
+          "notes": "Applies to workmen as defined in § 2(s). Establishments with 100+ workmen require prior government permission under § 25N."
+        },
+        {
+          "section": "§ 25G",
+          "topic": "Procedure for retrenchment",
+          "rate_or_rule": "Employer must follow last-in-first-out rule unless there is a valid reason to deviate.",
+          "notes": ""
+        },
+        {
+          "section": "§ 25H",
+          "topic": "Re-employment of retrenched workmen",
+          "rate_or_rule": "When vacancies arise, retrenched workmen must be given preference for re-employment.",
+          "notes": ""
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/bitstream/123456789/20352/1/the_industrial_disputes_act.pdf",
+      "secondary_source_url": "https://indiankanoon.org/doc/1056316/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Maternity Benefit Act, 1961",
+      "short_name": "Maternity Act",
+      "enactment_year": 1961,
+      "most_recent_amendment_year": 2017,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 5",
+          "topic": "Right to maternity benefit",
+          "rate_or_rule": "26 weeks of paid maternity leave for women with fewer than two surviving children; 12 weeks for women who already have two or more surviving children. Not more than 8 weeks may precede expected delivery date.",
+          "notes": "Amended from 12 weeks to 26 weeks by Maternity Benefit (Amendment) Act, 2017 (Act 6 of 2017), effective 1 April 2017. Applies to establishments with 10 or more employees."
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/1681",
+      "secondary_source_url": "https://www.indiacode.nic.in/bitstream/123456789/17115/1/maternity_benefit.pdf",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Payment of Wages Act, 1936",
+      "short_name": "Payment of Wages Act",
+      "enactment_year": 1936,
+      "most_recent_amendment_year": 2017,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 3",
+          "topic": "Responsibility for payment of wages",
+          "rate_or_rule": "The employer is responsible for payment of wages to every person employed.",
+          "notes": "Now subsumed under Code on Wages, 2019 (in force from 21 November 2025), which consolidates the Payment of Wages Act, Minimum Wages Act, Payment of Bonus Act, and Equal Remuneration Act."
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/1368",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Minimum Wages Act, 1948",
+      "short_name": "Minimum Wages Act",
+      "enactment_year": 1948,
+      "most_recent_amendment_year": 2017,
+      "jurisdiction": "Central (with state schedules)",
+      "key_sections": [
+        {
+          "section": "§ 3",
+          "topic": "Fixing of minimum wages",
+          "rate_or_rule": "Appropriate government must fix and revise minimum wages for scheduled employments listed in the Schedule.",
+          "notes": "Rates are state-specific and scheduled employment-specific. Subsumed under Code on Wages, 2019 (in force from 21 November 2025)."
+        }
+      ],
+      "primary_source_url": "https://www.indiacode.nic.in/handle/123456789/1672",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Code on Wages, 2019",
+      "short_name": "Wages Code",
+      "enactment_year": 2019,
+      "most_recent_amendment_year": null,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 6",
+          "topic": "Floor wage",
+          "rate_or_rule": "Central Government may fix a floor wage, taking into account minimum living standards of a worker.",
+          "notes": "Code came into force 21 November 2025. Consolidates Payment of Wages Act 1936, Minimum Wages Act 1948, Payment of Bonus Act 1965, and Equal Remuneration Act 1976. Central Rules notified May 2026; state rules still pending."
+        }
+      ],
+      "primary_source_url": "https://labour.gov.in/sites/default/files/TheCodeonWages2019.pdf",
+      "accessed_date": "May 2026",
+      "implementation_status": "In force from 21 November 2025. Central Rules notified May 2026. State rules pending."
+    },
+    {
+      "statute_name": "Industrial Relations Code, 2020",
+      "short_name": "IR Code",
+      "enactment_year": 2020,
+      "most_recent_amendment_year": null,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 77",
+          "topic": "Conditions for retrenchment",
+          "rate_or_rule": "Mirrors Industrial Disputes Act § 25F conditions. Establishments with 300+ workers require government permission for retrenchment (threshold raised from 100 under the earlier ID Act).",
+          "notes": ""
+        }
+      ],
+      "primary_source_url": "https://labour.gov.in/sites/default/files/IR_Code2020.pdf",
+      "accessed_date": "May 2026",
+      "implementation_status": "In force from 21 November 2025. Central Rules published December 2025 (draft). State rules pending."
+    },
+    {
+      "statute_name": "Code on Social Security, 2020",
+      "short_name": "Social Security Code",
+      "enactment_year": 2020,
+      "most_recent_amendment_year": null,
+      "jurisdiction": "Central",
+      "key_sections": [
+        {
+          "section": "§ 15",
+          "topic": "Employer and employee contributions",
+          "rate_or_rule": "Maintains EPF and ESI contribution rates pending rule notification. Extends social security coverage to gig and platform workers.",
+          "notes": ""
+        }
+      ],
+      "primary_source_url": "https://labour.gov.in/sites/default/files/SS_Code2020.pdf",
+      "accessed_date": "May 2026",
+      "implementation_status": "In force from 21 November 2025. Central Rules for Social Security notified May 2026. State rules pending. Existing EPFO and ESIC contribution rates continue during transition."
+    },
+    {
+      "statute_name": "Code on Occupational Safety, Health and Working Conditions, 2020",
+      "short_name": "OSH Code",
+      "enactment_year": 2020,
+      "most_recent_amendment_year": null,
+      "jurisdiction": "Central",
+      "key_sections": [],
+      "primary_source_url": "https://labour.gov.in/sites/default/files/OSH_Code2020.pdf",
+      "accessed_date": "May 2026",
+      "implementation_status": "In force from 21 November 2025. Central Rules pending. Consolidates Factories Act 1948, Mines Act 1952, Contract Labour Act 1970, and 10 other statutes."
+    },
+    {
+      "statute_name": "Professional Tax",
+      "short_name": "Professional Tax",
+      "enactment_year": null,
+      "most_recent_amendment_year": 1988,
+      "jurisdiction": "State (levied under Article 276 of the Constitution of India)",
+      "key_sections": [
+        {
+          "section": "Article 276(2)",
+          "topic": "Constitutional cap on professional tax",
+          "rate_or_rule": "Maximum professional tax: ₹2,500 per year per person. Raised from ₹250 to ₹2,500 by Constitution (Sixtieth Amendment) Act, 1988.",
+          "notes": "State-specific legislation governs slabs. Karnataka and Maharashtra are the two largest IT/services hubs with active professional tax regimes. Maharashtra: ₹200/month for 11 months + ₹300 in February = ₹2,500/year for employees above applicable income threshold. Karnataka: similar structure up to ₹2,500/year per notified slabs."
+        }
+      ],
+      "primary_source_url": "https://legislative.gov.in/constitution-of-india",
+      "accessed_date": "May 2026",
+      "notes": "State legislation governs exact slabs. Not all Indian states levy professional tax. Delhi does not levy professional tax."
+    }
+  ]
+}

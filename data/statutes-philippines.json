@@ -1,0 +1,178 @@
+{
+  "jurisdiction": "Philippines",
+  "accessed_date": "May 2026",
+  "statutes": [
+    {
+      "statute_name": "Labor Code of the Philippines",
+      "short_name": "Labor Code",
+      "enactment_year": 1974,
+      "most_recent_amendment_year": 2015,
+      "instrument": "Presidential Decree No. 442, as amended",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "Art. 294 [279]",
+          "topic": "Security of tenure",
+          "rate_or_rule": "In cases of regular employment, the employer shall not terminate the services of an employee except for a just cause or when authorized by the Labor Code.",
+          "notes": "Articles renumbered pursuant to DOLE Department Advisory No. 01, Series of 2015. Old numbering in brackets."
+        },
+        {
+          "section": "Art. 297 [282]",
+          "topic": "Termination by employer — just causes",
+          "rate_or_rule": "Just causes: (a) serious misconduct or willful disobedience; (b) gross and habitual neglect; (c) fraud or willful breach of trust; (d) commission of a crime or offense against the employer or family; (e) analogous causes.",
+          "notes": "Requires twin-notice procedure: first notice specifying grounds, opportunity to be heard, then second notice of termination decision."
+        },
+        {
+          "section": "Art. 298 [283]",
+          "topic": "Closure of establishment and reduction of personnel — authorized causes",
+          "rate_or_rule": "Authorized causes: installation of labor-saving devices; redundancy; retrenchment to prevent losses; closure or cessation of operations; disease. Employee entitled to one month pay or one-half month pay per year of service, whichever is higher, except closure due to serious losses.",
+          "notes": "Employer must serve written notice to employee and DOLE at least one month before intended date of termination."
+        },
+        {
+          "section": "Art. 106-109",
+          "topic": "Contractor or subcontractor arrangements",
+          "rate_or_rule": "Permits legitimate contracting and subcontracting. Where labor-only contracting is found, the principal is deemed the direct employer of the contractor's employees.",
+          "notes": "Implemented by DOLE Department Order No. 174-17."
+        }
+      ],
+      "primary_source_url": "https://hrlibrary.umn.edu/research/Philippines/PD%20442%20-%20Labor%20Code%20of%20the%20Philippines.pdf",
+      "secondary_source_url": "https://library.laborlaw.ph/p-d-442-labor-code-book-6/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Presidential Decree No. 851",
+      "short_name": "PD 851",
+      "enactment_year": 1975,
+      "most_recent_amendment_year": 1986,
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 1",
+          "topic": "Mandatory 13th month pay",
+          "rate_or_rule": "All employers are required to pay all their rank-and-file employees a 13th month pay not later than December 24 of every year. (Amended by Memorandum Order No. 28, 1986 to apply to all rank-and-file employees, removing the original ₱1,000 salary cap.)",
+          "notes": "13th month pay = 1/12 of total basic salary earned by employee within the calendar year. Excludes overtime pay, allowances, and other monetary benefits."
+        },
+        {
+          "section": "§ 2",
+          "topic": "Exclusions",
+          "rate_or_rule": "Employers already paying their employees a 13th month pay or its equivalent are not covered.",
+          "notes": "Managerial employees are excluded from coverage under DOLE Implementing Rules."
+        }
+      ],
+      "primary_source_url": "https://www.officialgazette.gov.ph/1975/12/16/presidential-decree-no-851-s-1975/",
+      "secondary_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/17290",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Social Security Act of 2018",
+      "short_name": "SSS Act",
+      "enactment_year": 2018,
+      "most_recent_amendment_year": null,
+      "instrument": "Republic Act No. 11199",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 18",
+          "topic": "Employer and employee contribution rates and schedule",
+          "rate_or_rule": "Total contribution rate: 15% of Monthly Salary Credit (MSC). Employer share: 10%; Employee share: 5%. Effective January 2025 (final scheduled increase under RA 11199). MSC range: ₱5,000 minimum to ₱35,000 maximum.",
+          "notes": "Rate increased in stages from 11% (2019) to 14% (2023) to 15% (2025) per the schedule under RA 11199. Employer also pays Employees' Compensation (EC) contributions separately."
+        }
+      ],
+      "primary_source_url": "https://www.sss.gov.ph/sss-contribution-table/",
+      "secondary_source_url": "https://www.sss.gov.ph/news-and-updates/sss-clarifies-1-contribution-rate-hike-bares-plans-for-2025/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Universal Health Care Act",
+      "short_name": "PhilHealth / UHC Act",
+      "enactment_year": 2019,
+      "most_recent_amendment_year": null,
+      "instrument": "Republic Act No. 11223",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 10",
+          "topic": "Premium contribution rate",
+          "rate_or_rule": "Premium contribution rate: 5% of monthly basic salary. Employer share: 2.5%; Employee share: 2.5%. Monthly salary floor: ₱10,000; Monthly salary ceiling: ₱100,000. Minimum monthly premium: ₱500; Maximum: ₱5,000.",
+          "notes": "5% is the final rate under the UHC Law's phased schedule. PhilHealth confirmed no further increase for 2026."
+        }
+      ],
+      "primary_source_url": "https://www.philhealth.gov.ph/advisories/2025/PA2025-0002.pdf",
+      "secondary_source_url": "https://pia.gov.ph/news/philhealth-sets-5-premium-contribution-rate-for-2026/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Home Development Mutual Fund Law of 2009",
+      "short_name": "Pag-IBIG / HDMF",
+      "enactment_year": 2009,
+      "most_recent_amendment_year": null,
+      "instrument": "Republic Act No. 9679",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 7",
+          "topic": "Contribution rates",
+          "rate_or_rule": "2% of monthly compensation (employee); 2% of monthly compensation (employer). Maximum Fund Salary (MFS): ₱10,000 per month (effective February 2024 per HDMF Circular No. 460). Maximum monthly contribution per party: ₱200.",
+          "notes": "MFS increased from ₱5,000 to ₱10,000 by HDMF Circular No. 460 (issued 15 January 2024). For members with monthly compensation of ₱1,500 or below, employee rate is 1% and employer rate is 2%."
+        }
+      ],
+      "primary_source_url": "https://www.pagibigfund.gov.ph",
+      "secondary_source_url": "https://www.respicio.ph/commentaries/how-to-pay-pag-ibig-contributions-for-2025-updated-steps-and-channels",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Wage Rationalization Act",
+      "short_name": "Wage Rationalization Act",
+      "enactment_year": 1989,
+      "most_recent_amendment_year": null,
+      "instrument": "Republic Act No. 6727",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 4",
+          "topic": "Regional Wage Boards",
+          "rate_or_rule": "Establishes Regional Tripartite Wages and Productivity Boards (RTWPBs) in each region of the Philippines to prescribe minimum wages in their respective regions.",
+          "notes": "Minimum wages are region-specific and industry-specific. RTWPBs issue regional wage orders. The National Capital Region (NCR) minimum wage for non-agricultural sector is set by the NCR RTWPB."
+        }
+      ],
+      "primary_source_url": "https://www.officialgazette.gov.ph/1989/06/09/republic-act-no-6727/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "DOLE Department Order No. 174, Series of 2017",
+      "short_name": "DO 174-17",
+      "enactment_year": 2017,
+      "most_recent_amendment_year": null,
+      "instrument": "Department Order No. 174-17",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 5",
+          "topic": "Legitimate contracting and subcontracting",
+          "rate_or_rule": "A contracting arrangement is legitimate if: (a) the contractor carries on a distinct and independent business; (b) the contractor has substantial capital (₱5 million for corporations, partnerships, cooperatives; ₱5 million net worth for single proprietors); (c) the service agreement ensures compliance with labor standards; (d) the contractor does not engage in labor-only contracting.",
+          "notes": "Issued under Articles 106-109 of the Labor Code. Replaced DOLE Department Order No. 18-A. Prohibits 'labor-only contracting' and other illicit contractual arrangements including the 'endo' scheme."
+        }
+      ],
+      "primary_source_url": "https://car.dole.gov.ph/news/department-order-number-174-17-and-labor-advisory-no-06-17/",
+      "accessed_date": "May 2026"
+    },
+    {
+      "statute_name": "Data Privacy Act of 2012",
+      "short_name": "Data Privacy Act",
+      "enactment_year": 2012,
+      "most_recent_amendment_year": null,
+      "instrument": "Republic Act No. 10173",
+      "jurisdiction": "National",
+      "key_sections": [
+        {
+          "section": "§ 12",
+          "topic": "Criteria for lawful processing of personal information",
+          "rate_or_rule": "Personal information may be processed only when consent is given; when processing is necessary for a contract; when required by law; to protect vitally important interests; when necessary for public functions; or when necessary for legitimate interests.",
+          "notes": "Administered by the National Privacy Commission. Relevant to employment records and data handling by foreign employers of Philippine-based remote staff."
+        }
+      ],
+      "primary_source_url": "https://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/",
+      "accessed_date": "May 2026"
+    }
+  ]
+}

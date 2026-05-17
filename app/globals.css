@@ -1,0 +1,333 @@
+@import "tailwindcss";
+
+/* ─── CSS custom properties ────────────────────────────────────────────── */
+:root {
+  --color-charcoal:  #1C1C1C;
+  --color-ivory:     #F8F5EE;
+  --color-maroon:    #7A1F1F;
+  --color-ink-muted: #5C544A;
+  --color-rule:      #E2DCC9;
+  --color-stamp-bg:  #EFE9D5;
+}
+
+/* ─── Tailwind v4 @theme — exposes utilities ────────────────────────────── */
+@theme inline {
+  /* Fonts — resolved from next/font CSS vars set on <html> */
+  --font-heading:  var(--font-cormorant);
+  --font-body:     var(--font-source-serif);
+  --font-mono:     var(--font-ibm-plex-mono);
+
+  /* Colors → bg-charcoal, text-charcoal, border-rule, etc. */
+  --color-charcoal:  #1C1C1C;
+  --color-ivory:     #F8F5EE;
+  --color-maroon:    #7A1F1F;
+  --color-muted:     #5C544A;
+  --color-rule:      #E2DCC9;
+  --color-stamp-bg:  #EFE9D5;
+}
+
+/* ─── Body defaults ─────────────────────────────────────────────────────── */
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-body), "Source Serif 4", "Georgia", serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* ─── Paper texture overlay ─────────────────────────────────────────────── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  z-index: 0;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence baseFrequency='0.85' numOctaves='1' stitchTiles='stitch'/></filter><rect width='200' height='200' filter='url(%23n)' opacity='0.55'/></svg>");
+}
+
+/* Ensure all content sits above the texture */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Restraint rules ───────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+
+/* Allow up to 3px radius only on elements explicitly needing it */
+.radius-sm {
+  border-radius: 3px !important;
+}
+
+/* Shadow cap — nothing heavier than this */
+.shadow-legal {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* ─── Typography — headings ─────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), "Cormorant Garamond", "Georgia", serif;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  line-height: 1.25;
+}
+
+h1 { font-size: 2rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.45rem; margin-top: 2.5rem; margin-bottom: 0.75rem; font-weight: 600; }
+h3 { font-size: 1.15rem; margin-top: 2rem; margin-bottom: 0.5rem; font-weight: 500; }
+
+/* ─── Statutory section references ─────────────────────────────────────── */
+code {
+  font-family: var(--font-mono), "IBM Plex Mono", monospace;
+  font-size: 0.95em;
+  color: var(--color-maroon);
+  background: transparent;
+  padding: 0;
+}
+
+pre code {
+  font-size: 0.875rem;
+}
+
+/* ─── Statute names (italic) ─────────────────────────────────────────────── */
+em {
+  font-style: italic;
+}
+
+/* ─── Links ─────────────────────────────────────────────────────────────── */
+a {
+  color: var(--color-maroon);
+  text-decoration: underline;
+  text-decoration-color: rgba(122, 31, 31, 0.35);
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-color: var(--color-maroon);
+}
+
+/* ─── Layout containers ─────────────────────────────────────────────────── */
+.prose-ohl {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.tables-ohl {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.statute-excerpt-ohl {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ─── Drop cap ─────────────────────────────────────────────────────────── */
+.drop-cap::first-letter {
+  font-family: var(--font-heading), "Cormorant Garamond", "Georgia", serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--color-maroon);
+  float: left;
+  line-height: 0.95;
+  padding-right: 12px;
+  padding-top: 4px;
+  margin-bottom: -4px;
+}
+
+/* ─── Verified-as-of stamp ───────────────────────────────────────────────── */
+.stamp-verified {
+  background-color: var(--color-stamp-bg);
+  border-left: 3px solid var(--color-maroon);
+  padding: 12px 16px;
+  font-family: var(--font-mono), "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.stamp-updated {
+  font-family: var(--font-mono), "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--color-charcoal);
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* ─── Callout / methodology note ─────────────────────────────────────────── */
+.callout-ohl {
+  border-left: 2px solid var(--color-rule);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  color: var(--color-ink-muted);
+  font-size: 0.94rem;
+}
+
+.callout-ohl strong {
+  font-family: var(--font-heading), "Cormorant Garamond", serif;
+  font-size: 1rem;
+  color: var(--color-charcoal);
+}
+
+/* ─── Statutory excerpt blockquote ───────────────────────────────────────── */
+blockquote.statute-excerpt {
+  border-left: 3px solid var(--color-maroon);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  color: var(--color-charcoal);
+  font-size: 0.94rem;
+}
+
+blockquote.statute-excerpt cite {
+  display: block;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin-top: 0.75rem;
+  font-style: normal;
+}
+
+/* ─── Tables ─────────────────────────────────────────────────────────────── */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+table caption {
+  text-align: left;
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--color-ink-muted);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-body), serif;
+}
+
+table thead {
+  background-color: #EFE9D5;
+}
+
+table thead th {
+  font-family: var(--font-heading), "Cormorant Garamond", serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.625rem 0.875rem;
+  border: 1px solid var(--color-rule);
+  text-align: left;
+  color: var(--color-charcoal);
+}
+
+table tbody td {
+  padding: 0.625rem 0.875rem;
+  border: 1px solid var(--color-rule);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(242, 237, 225, 0.4);
+}
+
+/* Section number cells */
+td.section-ref {
+  font-family: var(--font-mono), "IBM Plex Mono", monospace;
+  color: var(--color-maroon);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+/* Statute name cells — italic */
+td.statute-name {
+  font-style: italic;
+}
+
+/* Footnote refs */
+sup.fn-ref {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.7rem;
+  color: var(--color-maroon);
+}
+
+/* Footnote list */
+.footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.8rem;
+  font-family: var(--font-mono), monospace;
+  color: var(--color-ink-muted);
+}
+
+.footnotes ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.footnotes li {
+  margin-bottom: 0.375rem;
+}
+
+/* ─── Homepage reference cards ──────────────────────────────────────────── */
+.ref-card {
+  display: block;
+  background: var(--color-ivory);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+
+.ref-card:hover {
+  background: var(--color-stamp-bg);
+  text-decoration: none;
+}
+
+/* ─── Page section separator ─────────────────────────────────────────────── */
+.rule-section {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  margin: 2.5rem 0;
+}
+
+/* ─── Paragraph spacing ──────────────────────────────────────────────────── */
+p {
+  margin-bottom: 1.1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* ─── List spacing ───────────────────────────────────────────────────────── */
+ul, ol {
+  margin-bottom: 1.1rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
