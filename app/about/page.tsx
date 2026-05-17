@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { generatePersonSchema, jsonLd } from "@/lib/schema";
+import { generatePersonSchema, generateArticleSchema, jsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "About",
@@ -12,14 +12,28 @@ export const metadata: Metadata = {
   },
 };
 
-const schema = generatePersonSchema();
+const personSchema = generatePersonSchema();
+
+const articleSchema = generateArticleSchema({
+  title: "About Offshore Hiring Laws",
+  description:
+    "Editor biography, editorial independence disclosure, conflict-of-interest notice, and legal disclaimer for Offshore Hiring Laws.",
+  url: "https://offshorehiringlaws.com/about",
+  datePublished: "2026-05-17",
+  dateModified: "2026-05-17",
+  jurisdiction: "India and Philippines",
+});
 
 export default function About() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(personSchema) }}
       />
 
       <article style={{ paddingTop: "3rem", paddingBottom: "4rem" }}>
@@ -54,8 +68,8 @@ export default function About() {
 
           <p>
             Correspondence regarding editorial matters may be directed to{" "}
-            <a href="mailto:joel@f5hiringsolutions.com">
-              joel@f5hiringsolutions.com
+            <a href="mailto:editor@offshorehiringlaws.com">
+              editor@offshorehiringlaws.com
             </a>
             .
           </p>
@@ -65,33 +79,32 @@ export default function About() {
           <h2>Editorial independence and conflict-of-interest disclosure</h2>
 
           <p>
-            Offshore Hiring Laws is edited by Joel Deutsch, who is also the
-            founder of F5 Hiring Solutions. This relationship is disclosed
-            because it constitutes a potential conflict of interest: F5 Hiring
-            Solutions operates as a managed-workforce provider in the same
-            regulatory environment that this publication describes, and may
-            benefit commercially from readers' awareness of the statutory
-            obligations that F5 bears on their behalf.
+            Joel Deutsch is the founder of the managed-workforce provider
+            named in the editor biography above. This relationship is disclosed
+            because it constitutes a potential conflict of interest: the company
+            operates in the same regulatory environment that this publication
+            describes, and may benefit commercially from readers' awareness of
+            the statutory obligations that such providers bear on their clients'
+            behalf.
           </p>
 
           <p>
-            The publication is operated independently of F5 Hiring Solutions.
-            Statutory rates, contribution ceilings, section numbers, and
-            compliance obligations are reported as they appear in the cited
-            primary sources. No rate is inflated, minimized, or omitted to
-            favor any commercial outcome. The citation policy — cite primary
-            sources, omit rather than fabricate — is applied uniformly
-            regardless of how the content might affect the commercial interests
-            of F5 Hiring Solutions or any other entity.
+            The publication is operated independently. Statutory rates,
+            contribution ceilings, section numbers, and compliance obligations
+            are reported as they appear in the cited primary sources. No rate is
+            inflated, minimized, or omitted to favor any commercial outcome. The
+            citation policy — cite primary sources, omit rather than fabricate —
+            is applied uniformly regardless of how the content might affect any
+            commercial interest.
           </p>
 
           <p>
-            F5 Hiring Solutions is referenced on this site only where directly
-            relevant as an example of the type of entity (employer-of-record or
+            The company is referenced on this site only where directly relevant
+            as an example of the type of entity (employer-of-record or
             managed-workforce provider) that bears statutory obligations under
             the frameworks described. Such references are confined to the pages
             covering each jurisdiction's employment law overview, where the
-            employer-of-record structure is explained, and to this About page.
+            employer-of-record structure is explained, and to this page.
           </p>
 
           <hr className="rule-section" />

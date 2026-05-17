@@ -232,12 +232,15 @@ export default function Methodology() {
           <h2>Editorial independence</h2>
 
           <p>
-            Offshore Hiring Laws is edited by Joel Deutsch, founder of F5 Hiring
-            Solutions, a managed-workforce provider that places remote
-            professionals from India and the Philippines into US-based companies.
-            This relationship is disclosed because it represents a potential
-            conflict of interest: F5 Hiring Solutions operates in the same
-            regulatory environment described by this publication.
+            Offshore Hiring Laws is edited by Joel Deutsch, founder of{" "}
+            <a href="https://www.f5hiringsolutions.com" target="_blank" rel="noopener">
+              F5 Hiring Solutions
+            </a>
+            , a managed-workforce provider placing remote professionals from
+            India and the Philippines into US-based companies. This relationship
+            is disclosed because it represents a potential conflict of interest:
+            the company operates in the same regulatory environment described by
+            this publication.
           </p>
 
           <p>
@@ -245,9 +248,8 @@ export default function Methodology() {
             are reported as they appear in the primary sources; no rate is
             inflated, minimized, or omitted to favor any commercial outcome. The
             citation policy — cite primary sources, omit rather than fabricate —
-            is applied uniformly regardless of how the content might affect the
-            commercial interests of F5 Hiring Solutions or any other entity. Joel
-            Deutsch is not licensed to practice law.
+            is applied uniformly regardless of how the content might affect any
+            commercial interest. Joel Deutsch is not licensed to practice law.
           </p>
 
           <hr className="rule-section" />
